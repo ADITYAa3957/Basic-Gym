@@ -1,0 +1,279 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* navbar */
+.navbar{
+    background-color:black;
+    overflow:auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.li-1{
+    float:left;
+    margin-left:1% ;
+    margin-right:1%;
+    padding-top:1.5%;
+    padding-bottom:1.5%;
+    color:white;
+    font-size:1.25rem;
+}
+.li-2{
+    float:right;
+    margin-top:1.5%;
+    margin-bottom:1%;
+    
+}
+#brand{
+    margin-left:0.5%;
+    margin-right:2%;
+    letter-spacing:3px;
+    
+
+}
+.navbar ul{
+    list-style:none;
+}
+.logo-icon{
+    color:rebeccapurple;
+}
+#search-bar{ 
+    margin-right:20px;
+    height:25px;
+    color:whitesmoke;
+    background-color:transparent;
+    border:none;
+    font-size:1.25rem;
+    outline:none;
+    padding-bottom:5px;
+    border-bottom:1px solid grey;
+    border-right:1px solid grey;
+   
+} 
+.navlink{
+    text-decoration: none;
+    color: white;
+}
+.navlink:hover{
+    color:purple;
+}
+
+/* front page */
+.front-page{
+    background-image:url('../images/man-workout.jpg') ;
+    text-align:center;
+    height:1000px;
+}
+.front-page-heading{
+   position: relative;
+   font-family: 'Montserrat', sans-serif;
+   top:475px;
+   font-size:5rem;
+   color:whitesmoke;
+}
+/*section with features*/
+.card{
+    font-family: 'Montserrat', sans-serif;
+    margin-top:5%;
+    margin-bottom: 5%;
+    float:left;
+    width:12.5%;
+    margin-left:6%;
+    margin-right: 6%;
+    color: white;
+}
+.card h3{
+    margin-top:10px;
+    margin-bottom:10px;
+    color:black;
+}
+.features-1{
+    text-align:center;
+    background-color:rgb(7, 210, 246);
+    overflow:auto;
+}
+.features-icon{
+    height:100px;
+    width:100px;
+}
+/* workout-woman */
+.workout-woman{
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+.workout-w-img{
+   float:left;
+    width:40%;
+}
+.descr-ww{
+    float:left;
+    width:40%;    
+    padding-top:40px;
+    line-height:2;
+    padding-left:40px;
+    padding-right:250px;
+}
+.descr-ww h1{
+    font-size:3rem;
+    font-weight:bold;
+}
+.descr-ww p
+{
+    color:grey;
+}
+/* features-2 */
+.features-sec{
+    clear: both;
+    background-color:silver;
+    overflow: auto;    
+}
+.features-sec p{
+    color: white;
+}
+.card-2{
+    width:20%;
+    margin-left:6.5%;
+    margin-right: 6.5%;
+}
+/* be fit and healthy section */
+.be-fit-and-healthy{
+    clear:left;
+    font-family: 'Montserrat', sans-serif;
+}
+/* contact-us */
+.contact-us{
+    clear: left;
+    text-align: center;
+    background-color: orange;
+    padding-top:100px;
+    padding-bottom: 150px;
+
+}
+.contact-us h1{
+    font-size:4rem;
+    color: crimson;
+    
+}
+.contact-us p{
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size:1.5rem;
+}
+.contact-us a{
+    display: inline-block;
+    text-decoration: none;
+    
+    background-color: crimson;
+    font-size:1.3rem;
+    padding:15px;
+    border-radius:10px;
+    letter-spacing:2.5px;
+    margin-top: 20px;
+    color: whitesmoke;
+}
+.contact-us a:hover{
+    background-color:rgb(207, 7, 47);
+    border:2px solid rgb(207, 7, 47);
+}
+.contact-us a:active{
+    background-color:orange;
+    border: none;
+    color:orange;
+    
+}
+/* footer */
+.footer{
+    clear: left;
+    overflow: auto;
+    background-color:grey;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer p{
+    margin-top:20px;
+    color: whitesmoke;
+
+}
+.footer a{
+    display: block;
+    margin-top:20px;
+    margin-bottom: 20px;
+    color: white;
+}
+.card-3{
+    width: 20%;
+    margin-left:6%;
+    margin-right:6%;
+}
+.copyright-div{
+    clear:left;
+    width:15%;
+    margin: auto;
+}
+/* front-page-sec */
+.front-page-sec{
+    color:white;
+    font-style:'Montserrat', sans-serif;
+    font-size:4rem;
+    background-image:url('../images/man-workout.jpg') ;
+    height: 575px;
+    text-align: center;
+}
+.front-page-sec h1{
+    position: relative;
+    top:40%
+}
+/* form section */
+.form-section{
+   /* padding:10% 30% 10% 30%; */
+   margin:100px 90px 40px 300px;
+   overflow: auto;
+
+}
+label{
+    color: black;
+    font-size:1.8rem;
+    margin-right: 30px;
+    
+}
+input{
+    height:1.5rem;
+}
+.input-box{
+    margin: 20px;
+    margin-top:0;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing:1.5px;
+    font-size:1.15rem;
+    margin: 20px;
+    margin-top:0;
+    padding: 15px;
+    background-color: silver;
+    color: white;
+    border-radius:5px;
+    
+}
+.btn:hover{
+    background-color:grey;
+    border:1.5px solid grey;
+    
+}
+.form-box{
+    float:left;
+    width:50%;
+    margin-top:30px;
+}
+.icon{
+    height:30px;
+}
+.form-box p{
+    font-size:1.5rem;
+    margin-left:5px;
+    display:inline-block;
+    margin-bottom:20px;
+}
